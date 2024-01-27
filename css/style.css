@@ -1,0 +1,49 @@
+body {
+    width: 780px;
+    background: red;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-desktop{
+    display: none;
+}
+
+.hero-section {
+    height: 200px;
+    background: lightblue;
+    padding: 2rem;
+}
+
+footer{
+    display: flex;
+}
+
+.landing-content{
+    margin: 10px;
+    background: #f9f1f1;
+}
+
+.hero-section{
+    min-height: 200px;
+    background-image: url("images/unsplash-london-skyline.jpg");
+    background-size: cover;
+}
+
+.hero-section, .landing-content{
+    display: flex;
+}
+
+.landing-content{
+    height: 480px;
+}
+
+.landing-content-image{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
