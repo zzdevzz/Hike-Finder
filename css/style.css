@@ -1,6 +1,8 @@
 body {
-    width: 780px;
-    background: red;
+    width: 80%;
+    background: lightgray;
+    font-family: 'Inter', sans-serif;
+
 }
 
 header{
@@ -13,11 +15,6 @@ header{
     display: none;
 }
 
-.hero-section {
-    height: 200px;
-    background: lightblue;
-    padding: 2rem;
-}
 
 footer{
     display: flex;
@@ -30,11 +27,13 @@ footer{
 
 .hero-section{
     min-height: 200px;
-    background-image: url("images/unsplash-london-skyline.jpg");
+    background-image: url("../images/unsplash-london-skyline.jpg");
     background-size: cover;
+    padding: 2rem;
+    color: yellow;
 }
 
-.hero-section, .landing-content{
+.landing-content{
     display: flex;
 }
 
